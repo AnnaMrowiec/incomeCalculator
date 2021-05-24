@@ -20,6 +20,7 @@ public class Main {
         int expenses = scanner.nextInt();
         float tax = Math.round(expenses*19/100F);
         float netIncome = grossIncome - tax;
+        
         System.out.println("You are " + name + " and you are " + age + " years old");
         System.out.println("You get " + grossIncome + " PLN");
         System.out.println("With " + tax + " tax, you earn " + netIncome + " PLN");
